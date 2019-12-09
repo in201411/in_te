@@ -10,7 +10,7 @@ public class Block implements Serializable {
 	private static final long serialVersionUID = 1L;
 	private int size = TetrisBoard.BLOCK_SIZE;
 	private int width = size, height = size;
-	private int gap = 3;
+	private int gap = 4;
 	private int fixGridX, fixGridY;
 	private int posGridX, posGridY;
 	private Color color;
